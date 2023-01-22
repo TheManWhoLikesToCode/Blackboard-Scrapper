@@ -1,0 +1,37 @@
+/* Add a background color and font for the entire page */
+body {
+  background-color: #f5f5dc;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+  text-align: center;
+  color: #800000;
+}
+
+/* Style the table */
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+/* Style the table headings */
+h3 {
+  text-align: center;
+  color: #800000;
+}
+
+/* Style the table cells */
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style the "Final Grade" and "Midterm Grade" rows */
+td.final,
+td.midterm {
+  font-weight: bold;
+}
